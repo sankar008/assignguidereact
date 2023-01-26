@@ -14,14 +14,17 @@ const HowItWorks = () => {
                 <div class="pattern-layer-two"></div>
                 <div class="color-layer"></div>
                 <div class="image">
-                  <img src="images/resource/benefit-1.jpg" alt="" />
+                  <img
+                    src="https://img.freepik.com/premium-vector/online-meeting-business-concept-flat-vector-illustration-banner-landing-page_128772-891.jpg"
+                    alt=""
+                  />
                 </div>
-                <div class="image-two">
+                {/* <div class="image-two">
                   <img src="images/resource/benefit-3.jpg" alt="" />
                 </div>
                 <div class="image-three">
                   <img src="images/resource/benefit-2.jpg" alt="" />
-                </div>
+                </div> */}
               </div>
             </div>
 

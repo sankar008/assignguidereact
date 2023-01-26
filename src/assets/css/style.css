@@ -2210,8 +2210,8 @@ img {
 .banner-section {
   position: relative;
   overflow: hidden;
-  padding-top: 100px;
-  padding-bottom: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .banner-section .image-column .pattern-layer-one {
@@ -17501,4 +17501,7 @@ img {
   height: 70px;
   font-size: 40px;
   line-height: 65px;
+}
+.typingColor{
+  color: #00e49a;
 }
