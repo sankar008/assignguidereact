@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Blog from "./Blog";
 import Counter from "./Counter";
+import Featurs from "./Featurs";
 import HowItWorks from "./HowItWorks";
 import Instructor from "./Instructor";
 import OurStatus from "./OurStatus";
@@ -16,6 +17,7 @@ const Home = () => {
       <HowItWorks />
       <Counter />
       <Services />
+      <Featurs />
       <OurStatus />
       <Testimonial />
       <Blog />

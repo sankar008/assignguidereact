@@ -23,11 +23,14 @@ const Counter = () => {
                   }}
                 ></div>
                 <div class="image">
-                  <img src="images/resource/goal-1.jpg" alt="" />
+                  <img
+                    src="https://img.freepik.com/free-vector/happy-freelancer-with-computer-home-young-man-sitting-armchair-using-laptop-chatting-online-smiling-vector-illustration-distance-work-online-learning-freelance_74855-8401.jpg?w=2000"
+                    alt=""
+                  />
                 </div>
-                <div class="image-two">
+                {/* <div class="image-two">
                   <img src="images/resource/goal-2.jpg" alt="" />
-                </div>
+                </div> */}
               </div>
             </div>
 

@@ -42,40 +42,12 @@ const Services = () => {
               >
                 <div class="image">
                   <a href="course-detail.html">
-                    <img src="images/resource/course-1.jpg" alt="" />
+                    <img src="images/assignment.png" alt="" />
                   </a>
                 </div>
                 <div class="lower-content px-0">
                   <h4>
-                    <a href="course-detail.html">
-                      Growth Mindsets for Teachers and Learners
-                    </a>
-                  </h4>
-                  <div class="uni-namdde">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Praesentium, et similique harum pariatur, assumenda ratione
-                    voluptates nam quos id earum quasi ab asperiores eos facere
-                    saepe optio perferendis? Fugit, itaque!
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="course-block col-lg-4 col-md-6 col-sm-12">
-              <div
-                class="inner-box wow fadeInUp"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div class="image">
-                  <a href="course-detail.html">
-                    <img src="images/resource/course-2.jpg" alt="" />
-                  </a>
-                </div>
-                <div class="lower-content px-0">
-                  <h4>
-                    <a href="course-detail.html">
-                      Growth Mindsets for Teachers and Learners
-                    </a>
+                    <a href="course-detail.html">Assignment Help</a>
                   </h4>
                   <div class="uni-namdde">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -89,20 +61,42 @@ const Services = () => {
 
             <div class="course-block col-lg-4 col-md-6 col-sm-12">
               <div
+                class="inner-box wow fadeInUp"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+              >
+                <div class="image">
+                  <a href="course-detail.html">
+                    <img src="images/report.png" alt="" />
+                  </a>
+                </div>
+                <div class="lower-content px-0">
+                  <h4>
+                    <a href="course-detail.html">Lab Report</a>
+                  </h4>
+                  <div class="uni-namdde">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Praesentium, et similique harum pariatur, assumenda ratione
+                    voluptates nam quos id earum quasi ab asperiores eos facere
+                    saepe optio perferendis? Fugit, itaque!
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course-block col-lg-4 col-md-6 col-sm-12">
+              <div
                 class="inner-box wow fadeInRight"
                 data-wow-delay="0ms"
                 data-wow-duration="1500ms"
               >
                 <div class="image">
                   <a href="course-detail.html">
-                    <img src="images/resource/course-3.jpg" alt="" />
+                    <img src="images/copy-writing.png" alt="" />
                   </a>
                 </div>
                 <div class="lower-content px-0">
                   <h4>
-                    <a href="course-detail.html">
-                      Growth Mindsets for Teachers and Learners
-                    </a>
+                    <a href="course-detail.html">Project Report Writing</a>
                   </h4>
                   <div class="uni-namdde">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -123,14 +117,12 @@ const Services = () => {
               >
                 <div class="image">
                   <a href="course-detail.html">
-                    <img src="images/resource/course-1.jpg" alt="" />
+                    <img src="images/calculating.png" alt="" />
                   </a>
                 </div>
                 <div class="lower-content px-0">
                   <h4>
-                    <a href="course-detail.html">
-                      Growth Mindsets for Teachers and Learners
-                    </a>
+                    <a href="course-detail.html">Math Solver</a>
                   </h4>
                   <div class="uni-namdde">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -149,14 +141,12 @@ const Services = () => {
               >
                 <div class="image">
                   <a href="course-detail.html">
-                    <img src="images/resource/course-2.jpg" alt="" />
+                    <img src="images/essay.png" alt="" />
                   </a>
                 </div>
                 <div class="lower-content px-0">
                   <h4>
-                    <a href="course-detail.html">
-                      Growth Mindsets for Teachers and Learners
-                    </a>
+                    <a href="course-detail.html">Essay Writing</a>
                   </h4>
                   <div class="uni-namdde">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -176,14 +166,12 @@ const Services = () => {
               >
                 <div class="image">
                   <a href="course-detail.html">
-                    <img src="images/resource/course-3.jpg" alt="" />
+                    <img src="images/live.png" alt="" />
                   </a>
                 </div>
                 <div class="lower-content px-0">
                   <h4>
-                    <a href="course-detail.html">
-                      Growth Mindsets for Teachers and Learners
-                    </a>
+                    <a href="course-detail.html">Live Session</a>
                   </h4>
                   <div class="uni-namdde">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -192,6 +180,15 @@ const Services = () => {
                     saepe optio perferendis? Fugit, itaque!
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="row clearfix">
+            <div className="col-md-12 text-center">
+              <div class="btn-box">
+                <a class="theme-btn btn-style-two" href="#">
+                  <span class="txt">More Services</span>
+                </a>
               </div>
             </div>
           </div>
