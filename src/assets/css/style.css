@@ -9609,7 +9609,11 @@ img {
 
 .blog-classic {
   position: relative;
-  margin-top: -100px;
+}
+.form-column {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .blog-page-section.style-two {
@@ -9729,7 +9733,7 @@ img {
 
 .sidebar-page-container {
   position: relative;
-  padding: 0px 0px 60px;
+  padding: 70px 0px 60px;
 }
 
 .sidebar-page-container .content-side,
@@ -9738,7 +9742,7 @@ img {
 }
 
 .sidebar-page-container .sidebar-side .sidebar {
-  padding-top: 0px;
+  padding-top: 20px;
 }
 
 .sidebar-page-container.style-two {
@@ -10022,8 +10026,17 @@ img {
   font-weight: 500;
   margin-top: 12px;
   margin-bottom: 25px;
+  font-size: 24px !important;
 }
-
+.blogheadding {
+  border-bottom: 1px solid #ccc;
+  color: #0c0d24;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.1em;
+  font-family: "Glory", sans-serif;
+  padding-bottom: 19px;
+}
 .news-block-two .inner-box .lower-content h2 a {
   position: relative;
   color: #06142d;
@@ -15572,6 +15585,22 @@ img {
   font-family: "Lato", sans-serif;
 }
 
+.innerBanner {
+  background-size: cover;
+  padding: 80px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.innerBanner h1 {
+  color: #fff;
+}
+.border_right_blog {
+  border-right: 1px solid #ccc;
+}
+.carousal .item .lower-content h2 {
+  font-size: 17px !important;
+}
 /*** 
 
 ====================================================================
@@ -17896,16 +17925,19 @@ img {
   background-repeat: no-repeat;
 }
 .loginPage {
-  background: url("../images/login.jpg");
-  height: 110vh;
-  background-size: cover;
-  background-position: top;
-  width: 70%;
+  
   margin: auto;
 }
 .loginBox {
   margin-top: 6rem;
   text-align: center;
+}
+.loginBoxMain{
+      background-color: #fff;
+    box-shadow: 0px 0px 20px #9c9c9c;
+    padding: 30px;
+    margin: 50px 0px;
+    border-radius: 10px;
 }
 .loginBox h1 {
   color: #9e519f;
@@ -17923,6 +17955,7 @@ img {
   box-shadow: inset 0 0 15px #d18553;
   padding: 7px 15px;
   border-radius: 3px;
+  width: 75%;
 }
 .loginPage .inner-column {
   padding: 80px 8px 0 136px !important;

@@ -109,101 +109,17 @@ const Header = () => {
                       </div>
                     </li>
                     <li class="current dropdown">
-                      <a href="#">Home</a>
-                      <ul>
-                        <li>
-                          <a href="index.html">online course 1</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">online course 2</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Coaching</a>
-                        </li>
-                        <li>
-                          <a href="index-4.html">Kindergarten</a>
-                        </li>
-                        <li>
-                          <a href="index-5.html">
-                            University <span class="new-page">New</span>
-                          </a>
-                        </li>
-                        <li class="dropdown">
-                          <a href="#">Header styles</a>
-                          <ul>
-                            <li>
-                              <a href="index.html">Header Style 01</a>
-                            </li>
-                            <li>
-                              <a href="index-2.html">Header Style 02</a>
-                            </li>
-                            <li>
-                              <a href="index-3.html">Header Style 03</a>
-                            </li>
-                            <li>
-                              <a href="index-4.html">Header Style 04</a>
-                            </li>
-                            <li>
-                              <a href="index-5.html">
-                                Header Style 05{" "}
-                                <span class="new-page">New</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
+                      <NavLink to="/">Home</NavLink>
                     </li>
                     <li class="dropdown">
                       <a href="#">About</a>
-                      <ul>
-                        <li>
-                          <a href="about.html">About Us</a>
-                        </li>
-                        <li>
-                          <a href="faq.html">Faq</a>
-                        </li>
-                        <li>
-                          <a href="teacher.html">Teacher</a>
-                        </li>
-                        <li>
-                          <a href="profile.html">User Profile</a>
-                        </li>
-                        <li>
-                          <a href="membership.html">Membership</a>
-                        </li>
-                        <li class="dropdown">
-                          <a href="#">Events</a>
-                          <ul>
-                            <li>
-                              <a href="event.html">Events</a>
-                            </li>
-                            <li>
-                              <a href="event-detail.html">Events Detail</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
                     </li>
 
                     <li class="dropdown">
                       <Link to="/services">Services </Link>
                     </li>
-                    <li class="dropdown">
-                      <a href="#">Blog</a>
-                      <ul>
-                        <li>
-                          <a href="blog.html">Our Blog</a>
-                        </li>
-                        <li>
-                          <a href="blog-list.html">Blog List</a>
-                        </li>
-                        <li>
-                          <a href="blog-detail.html">Blog Detail</a>
-                        </li>
-                        <li>
-                          <a href="not-found.html">Not Found</a>
-                        </li>
-                      </ul>
+                    <li>
+                      <NavLink to="/blog">Blog</NavLink>
                     </li>
                     {/* <li>
                       <a href="contact.html">Contact</a>
