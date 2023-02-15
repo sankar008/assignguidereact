@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Home from "../components/Home";
+import About from "../pages/About";
 import Blog from "../pages/Blog";
 import Login from "../pages/Login";
 import ServicesS from "../pages/Services";
@@ -17,6 +18,7 @@ const AppRouter = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/about-us" element={<About />} />
       </Routes>
       <Footer />
     </Router>

@@ -112,7 +112,7 @@ const Header = () => {
                       <NavLink to="/">Home</NavLink>
                     </li>
                     <li class="dropdown">
-                      <a href="#">About</a>
+                      <NavLink to="/about-us">About</NavLink>
                     </li>
 
                     <li class="dropdown">

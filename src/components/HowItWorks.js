@@ -33,10 +33,7 @@ const HowItWorks = () => {
                     data-line-height="25.2px"
                   >
                     <div class="listar-feature-item listar-feature-has-link">
-                      <a
-                        href="https://codepen.io/uiswarup/full/yLzypyY"
-                        target="_blank"
-                      ></a>
+                      <a href="#"></a>
 
                       <div class="listar-feature-item-inner">
                         <div class="listar-feature-right-border"></div>
@@ -80,10 +77,7 @@ const HowItWorks = () => {
                     data-line-height="25.2px"
                   >
                     <div class="listar-feature-item listar-feature-has-link">
-                      <a
-                        href="https://codepen.io/uiswarup/full/yLzypyY"
-                        target="_blank"
-                      ></a>
+                      <a href="#"></a>
 
                       <div class="listar-feature-item-inner">
                         <div class="listar-feature-right-border"></div>
@@ -127,7 +121,7 @@ const HowItWorks = () => {
                     data-line-height="25.2px"
                   >
                     <div class="listar-feature-item listar-feature-has-link">
-                      <a href="https://codepen.io/uiswarup/full/yLzypyY"></a>
+                      <a href="#"></a>
 
                       <div class="listar-feature-item-inner">
                         <div class="listar-feature-right-border"></div>

@@ -152,10 +152,7 @@ const Footer = () => {
               <div class="col-lg-6 col-lg-6 col-sm-12">
                 <div class="subscribe-form">
                   <h6>Newsletter</h6>
-                  <form
-                    method="post"
-                    action="https://themazine.com/html/Lebari_new/lebari/lebari/contact.html"
-                  >
+                  <form method="post" action="">
                     <div class="form-group">
                       <input
                         type="email"
@@ -192,10 +189,10 @@ const Footer = () => {
               <div class="nav-column col-lg-6 col-md-12 col-sm-12">
                 <ul>
                   <li>
-                    <a href="about.html">SiteMap</a>
+                    <a href="#">SiteMap</a>
                   </li>
                   <li>
-                    <a href="about.html">Privacy Policy</a>
+                    <a href="#">Privacy Policy</a>
                   </li>
                 </ul>
               </div>

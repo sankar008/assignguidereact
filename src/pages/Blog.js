@@ -55,32 +55,32 @@ const Blog = () => {
                     <div class="news-block-two">
                       <div class="inner-box">
                         <div class="image">
-                          <a href="blog-detail.html">
+                          <a href="#">
                             <img src="images/resource/news-15.jpg" alt="" />
                           </a>
                         </div>
                         <div class="lower-content">
                           <ul class="post-info">
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-user"></span>Admin
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-calendar"></span>12 Feb
                                 2023
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-bookmark-o"></span>
                                 Education, teach , Course
                               </a>
                             </li>
                           </ul>
                           <h2 class="fa-2x">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               Interior Design Principles and Elements
                             </a>
                           </h2>
@@ -89,7 +89,7 @@ const Blog = () => {
                             the best course for you to gain in-depth knowledge
                             of this topic. Experts and…
                           </div>
-                          <a href="blog-detail.html" class="learn-more">
+                          <a href="#" class="learn-more">
                             Learn More{" "}
                             <span class="icon flaticon-right-arrow-1"></span>
                           </a>
@@ -104,56 +104,48 @@ const Blog = () => {
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-3.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-4.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-5.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-4.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
@@ -178,13 +170,13 @@ const Blog = () => {
                       <div class="news-block-two">
                         <div class="inner-box">
                           <div class="image">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               <img src="images/resource/news-15.jpg" alt="" />
                             </a>
                           </div>
                           <div class="lower-content p-2">
                             <h2 class="fa">
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 Interior Design Principles and Elements
                               </a>
                             </h2>
@@ -198,13 +190,13 @@ const Blog = () => {
                       <div class="news-block-two">
                         <div class="inner-box">
                           <div class="image">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               <img src="images/resource/news-15.jpg" alt="" />
                             </a>
                           </div>
                           <div class="lower-content p-2">
                             <h2 class="fa">
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 Interior Design Principles and Elements
                               </a>
                             </h2>
@@ -218,13 +210,13 @@ const Blog = () => {
                       <div class="news-block-two">
                         <div class="inner-box">
                           <div class="image">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               <img src="images/resource/news-15.jpg" alt="" />
                             </a>
                           </div>
                           <div class="lower-content p-2">
                             <h2 class="fa">
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 Interior Design Principles and Elements
                               </a>
                             </h2>
@@ -238,13 +230,13 @@ const Blog = () => {
                       <div class="news-block-two">
                         <div class="inner-box">
                           <div class="image">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               <img src="images/resource/news-15.jpg" alt="" />
                             </a>
                           </div>
                           <div class="lower-content p-2">
                             <h2 class="fa">
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 Interior Design Principles and Elements
                               </a>
                             </h2>
@@ -258,13 +250,13 @@ const Blog = () => {
                       <div class="news-block-two">
                         <div class="inner-box">
                           <div class="image">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               <img src="images/resource/news-15.jpg" alt="" />
                             </a>
                           </div>
                           <div class="lower-content p-2">
                             <h2 class="fa">
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 Interior Design Principles and Elements
                               </a>
                             </h2>
@@ -278,13 +270,13 @@ const Blog = () => {
                       <div class="news-block-two">
                         <div class="inner-box">
                           <div class="image">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               <img src="images/resource/news-15.jpg" alt="" />
                             </a>
                           </div>
                           <div class="lower-content p-2">
                             <h2 class="fa">
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 Interior Design Principles and Elements
                               </a>
                             </h2>
@@ -301,32 +293,32 @@ const Blog = () => {
                     <div class="news-block-two">
                       <div class="inner-box">
                         <div class="image">
-                          <a href="blog-detail.html">
+                          <a href="#">
                             <img src="images/resource/news-15.jpg" alt="" />
                           </a>
                         </div>
                         <div class="lower-content">
                           <ul class="post-info">
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-user"></span>Admin
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-calendar"></span>12 Feb
                                 2023
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-bookmark-o"></span>
                                 Education, teach , Course
                               </a>
                             </li>
                           </ul>
                           <h2 class="fa-2x">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               Interior Design Principles and Elements
                             </a>
                           </h2>
@@ -335,7 +327,7 @@ const Blog = () => {
                             the best course for you to gain in-depth knowledge
                             of this topic. Experts and…
                           </div>
-                          <a href="blog-detail.html" class="learn-more">
+                          <a href="#" class="learn-more">
                             Learn More{" "}
                             <span class="icon flaticon-right-arrow-1"></span>
                           </a>
@@ -349,32 +341,32 @@ const Blog = () => {
                     <div class="news-block-two">
                       <div class="inner-box">
                         <div class="image">
-                          <a href="blog-detail.html">
+                          <a href="#">
                             <img src="images/resource/news-15.jpg" alt="" />
                           </a>
                         </div>
                         <div class="lower-content">
                           <ul class="post-info">
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-user"></span>Admin
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-calendar"></span>12 Feb
                                 2023
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-bookmark-o"></span>
                                 Education, teach , Course
                               </a>
                             </li>
                           </ul>
                           <h2 class="fa-2x">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               Interior Design Principles and Elements
                             </a>
                           </h2>
@@ -383,7 +375,7 @@ const Blog = () => {
                             the best course for you to gain in-depth knowledge
                             of this topic. Experts and…
                           </div>
-                          <a href="blog-detail.html" class="learn-more">
+                          <a href="#" class="learn-more">
                             Learn More{" "}
                             <span class="icon flaticon-right-arrow-1"></span>
                           </a>
@@ -399,32 +391,32 @@ const Blog = () => {
                     <div class="news-block-two">
                       <div class="inner-box">
                         <div class="image">
-                          <a href="blog-detail.html">
+                          <a href="#">
                             <img src="images/resource/news-15.jpg" alt="" />
                           </a>
                         </div>
                         <div class="lower-content">
                           <ul class="post-info">
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-user"></span>Admin
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-calendar"></span>12 Feb
                                 2023
                               </a>
                             </li>
                             <li>
-                              <a href="blog-detail.html">
+                              <a href="#">
                                 <span class="icon fa fa-bookmark-o"></span>
                                 Education, teach , Course
                               </a>
                             </li>
                           </ul>
                           <h2 class="fa-2x">
-                            <a href="blog-detail.html">
+                            <a href="#">
                               Interior Design Principles and Elements
                             </a>
                           </h2>
@@ -433,7 +425,7 @@ const Blog = () => {
                             the best course for you to gain in-depth knowledge
                             of this topic. Experts and…
                           </div>
-                          <a href="blog-detail.html" class="learn-more">
+                          <a href="#" class="learn-more">
                             Learn More{" "}
                             <span class="icon flaticon-right-arrow-1"></span>
                           </a>
@@ -448,56 +440,48 @@ const Blog = () => {
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-3.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-4.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-5.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
                       <article class="post">
                         <figure class="post-thumb">
                           <img src="images/resource/post-thumb-4.jpg" alt="" />
-                          <a href="blog-detail.html" class="overlay-box">
+                          <a href="#" class="overlay-box">
                             <span class="icon fa fa-link"></span>
                           </a>
                         </figure>
                         <div class="text">
-                          <a href="blog-detail.html">
-                            Is Baking a Good career? 15 Reasons{" "}
-                          </a>
+                          <a href="#">Is Baking a Good career? 15 Reasons </a>
                         </div>
                         <div class="post-info">Admin, 10 Feb 2023</div>
                       </article>
@@ -544,42 +528,36 @@ const Blog = () => {
                     <article class="post">
                       <figure class="post-thumb">
                         <img src="images/resource/post-thumb-3.jpg" alt="" />
-                        <a href="blog-detail.html" class="overlay-box">
+                        <a href="#" class="overlay-box">
                           <span class="icon fa fa-link"></span>
                         </a>
                       </figure>
                       <div class="text">
-                        <a href="blog-detail.html">
-                          Is Baking a Good career? 15 Reasons{" "}
-                        </a>
+                        <a href="#">Is Baking a Good career? 15 Reasons </a>
                       </div>
                       <div class="post-info">Admin, 10 Feb 2023</div>
                     </article>
                     <article class="post">
                       <figure class="post-thumb">
                         <img src="images/resource/post-thumb-4.jpg" alt="" />
-                        <a href="blog-detail.html" class="overlay-box">
+                        <a href="#" class="overlay-box">
                           <span class="icon fa fa-link"></span>
                         </a>
                       </figure>
                       <div class="text">
-                        <a href="blog-detail.html">
-                          Is Baking a Good career? 15 Reasons{" "}
-                        </a>
+                        <a href="#">Is Baking a Good career? 15 Reasons </a>
                       </div>
                       <div class="post-info">Admin, 10 Feb 2023</div>
                     </article>
                     <article class="post">
                       <figure class="post-thumb">
                         <img src="images/resource/post-thumb-5.jpg" alt="" />
-                        <a href="blog-detail.html" class="overlay-box">
+                        <a href="#" class="overlay-box">
                           <span class="icon fa fa-link"></span>
                         </a>
                       </figure>
                       <div class="text">
-                        <a href="blog-detail.html">
-                          Is Baking a Good career? 15 Reasons{" "}
-                        </a>
+                        <a href="#">Is Baking a Good career? 15 Reasons </a>
                       </div>
                       <div class="post-info">Admin, 10 Feb 2023</div>
                     </article>
@@ -594,42 +572,36 @@ const Blog = () => {
                     <article class="post">
                       <figure class="post-thumb">
                         <img src="images/resource/post-thumb-4.jpg" alt="" />
-                        <a href="blog-detail.html" class="overlay-box">
+                        <a href="#" class="overlay-box">
                           <span class="icon fa fa-link"></span>
                         </a>
                       </figure>
                       <div class="text">
-                        <a href="blog-detail.html">
-                          Is Baking a Good career? 15 Reasons{" "}
-                        </a>
+                        <a href="#">Is Baking a Good career? 15 Reasons </a>
                       </div>
                       <div class="post-info">Admin, 10 Feb 2023</div>
                     </article>
                     <article class="post">
                       <figure class="post-thumb">
                         <img src="images/resource/post-thumb-4.jpg" alt="" />
-                        <a href="blog-detail.html" class="overlay-box">
+                        <a href="#" class="overlay-box">
                           <span class="icon fa fa-link"></span>
                         </a>
                       </figure>
                       <div class="text">
-                        <a href="blog-detail.html">
-                          Is Baking a Good career? 15 Reasons{" "}
-                        </a>
+                        <a href="#">Is Baking a Good career? 15 Reasons </a>
                       </div>
                       <div class="post-info">Admin, 10 Feb 2023</div>
                     </article>
                     <article class="post">
                       <figure class="post-thumb">
                         <img src="images/resource/post-thumb-5.jpg" alt="" />
-                        <a href="blog-detail.html" class="overlay-box">
+                        <a href="#" class="overlay-box">
                           <span class="icon fa fa-link"></span>
                         </a>
                       </figure>
                       <div class="text">
-                        <a href="blog-detail.html">
-                          Is Baking a Good career? 15 Reasons{" "}
-                        </a>
+                        <a href="#">Is Baking a Good career? 15 Reasons </a>
                       </div>
                       <div class="post-info">Admin, 10 Feb 2023</div>
                     </article>

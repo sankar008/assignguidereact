@@ -6199,7 +6199,6 @@ img {
 
 .banner-section-three .content-column .inner-column {
   position: relative;
-  padding-top: 150px;
 }
 
 .banner-section-three .content-column .inner-column h2 {
@@ -9614,6 +9613,7 @@ img {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0px 0px 20px #9f9f9f;
 }
 
 .blog-page-section.style-two {
@@ -12351,7 +12351,6 @@ img {
 }
 
 .banner-section .trial-form {
-  box-shadow: -5px 4px 20px #ccc;
   padding: 20px;
   backdrop-filter: blur(10px);
   border-radius: 8px;
