@@ -6200,7 +6200,25 @@ img {
 .banner-section-three .content-column .inner-column {
   position: relative;
 }
-
+.sidebar .item .sidebar-widget {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 85%;
+}
+#benefits .feature-block-five{
+  height: 250px;
+}
+#benefits .feature-block-five .inner-box{
+  height: 100%;
+}
+.bannerCros .popular-posts .post:last-child {
+  min-height: 60px !important;
+}
+.bannerCros {
+  width: 70% !important;
+  margin-top: 4rem;
+}
 .banner-section-three .content-column .inner-column h2 {
   position: relative;
   color: #06092d;
@@ -15349,9 +15367,9 @@ img {
   padding-right: 30px;
 }
 
-.feature-section-three .blocks-column .feature-block-five:nth-child(2n + 0) {
+/* .feature-section-three .blocks-column .feature-block-five:nth-child(2n + 0) {
   transform: translateY(50px);
-}
+} */
 
 .feature-block-five {
   position: relative;
@@ -17924,19 +17942,18 @@ img {
   background-repeat: no-repeat;
 }
 .loginPage {
-  
   margin: auto;
 }
 .loginBox {
   margin-top: 6rem;
   text-align: center;
 }
-.loginBoxMain{
-      background-color: #fff;
-    box-shadow: 0px 0px 20px #9c9c9c;
-    padding: 30px;
-    margin: 50px 0px;
-    border-radius: 10px;
+.loginBoxMain {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #9c9c9c;
+  padding: 30px;
+  margin: 50px 0px;
+  border-radius: 10px;
 }
 .loginBox h1 {
   color: #9e519f;

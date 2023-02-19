@@ -3,7 +3,7 @@ import React from "react";
 const OurStatus = () => {
   return (
     <>
-      <section class="skill-section">
+      <section class="skill-section" id="faq">
         <div
           class="pattern-layer"
           style={{ backgroundImage: `url(images/background/pattern-8.png)` }}

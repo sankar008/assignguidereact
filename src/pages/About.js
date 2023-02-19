@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import Counter from "../components/Counter";
 import HowItWorks from "../components/HowItWorks";
 import OrderFrom from "../components/OrderFrom";
+import OurMission from "../components/OurMission";
 import OurStatus from "../components/OurStatus";
 import Testimonial from "../components/Testimonial";
 
@@ -17,7 +19,7 @@ const About = () => {
         <div class="auto-container">
           <ul class="page-breadcrumb">
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>About</li>
           </ul>
@@ -84,9 +86,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Counter />
-      <HowItWorks />
-      <OurStatus />
+      <OurMission />
       <Testimonial />
     </div>
   );

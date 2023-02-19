@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import OrderFrom from "../components/OrderFrom";
 import { Typewriter } from "react-simple-typewriter";
 import OwlCarousel from "react-owl-carousel";
+import Testimonial from "../components/Testimonial";
+import { useParams } from "react-router";
+import Carousal from "../components/Carousal";
 const Blog = () => {
+  const param = useParams();
+  const [page, setPage] = useState("");
+  useEffect(() => {
+    setPage("blog");
+  }, []);
+
   return (
     <>
       <div
@@ -37,6 +46,61 @@ const Blog = () => {
                 <br />
                 available24X7
               </h1>
+              <div className="sidebar ">
+                <OwlCarousel
+                  className="testimonial-carousel bannerCros"
+                  loop
+                  margin={10}
+                  autoplay={true}
+                  items={1}
+                  dots={false}
+                  responsiveClass={true}
+                  autoplaySpeed={5000}
+                >
+                  <div class="item">
+                    <div class="sidebar-widget popular-posts">
+                      <div class="widget-content">
+                        <article class="post">
+                          <figure class="post-thumb">
+                            <img
+                              src="images/resource/post-thumb-3.jpg"
+                              alt=""
+                            />
+                            <a href="#" class="overlay-box">
+                              <span class="icon fa fa-link"></span>
+                            </a>
+                          </figure>
+                          <div class="text">
+                            <a href="#">Is Baking a Good career? 15 Reasons </a>
+                          </div>
+                          <div class="post-info">Admin, 10 Feb 2023</div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="sidebar-widget popular-posts">
+                      <div class="widget-content">
+                        <article class="post">
+                          <figure class="post-thumb">
+                            <img
+                              src="images/resource/post-thumb-3.jpg"
+                              alt=""
+                            />
+                            <a href="#" class="overlay-box">
+                              <span class="icon fa fa-link"></span>
+                            </a>
+                          </figure>
+                          <div class="text">
+                            <a href="#">Is Baking a Good career? 15 Reasons </a>
+                          </div>
+                          <div class="post-info">Admin, 10 Feb 2023</div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </OwlCarousel>
+              </div>
             </div>
             <div className="col-md-6">
               <OrderFrom />
@@ -488,6 +552,8 @@ const Blog = () => {
                     </div>
                   </div>
                 </div>
+                <h2 className="blogheadding">Word Form customers says</h2>
+                <Carousal />
               </div>
             </div>
 

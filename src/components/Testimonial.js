@@ -1,11 +1,10 @@
 import React from "react";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import Carousal from "./Carousal";
+
 const Testimonial = () => {
   return (
     <>
-      <section class="testimonial-section">
+      <section class="testimonial-section" id="review">
         <div
           class="circle-one paroller"
           data-paroller-factor="-0.20"
@@ -42,148 +41,16 @@ const Testimonial = () => {
                 dolor in reprehenderit in
               </div>
             </div>
-            <OwlCarousel
-              className="testimonial-carousel"
-              loop
-              margin={10}
-              autoplay={true}
-              items={2}
-              responsiveClass={true}
-              autoplaySpeed={5000}
-            >
-              <div class="item">
-                <div class="testimonial-block">
-                  <div class="inner-box">
-                    <div class="text">
-                      We turn your experts into thought leaders by getting their
-                      voices heard in the market and by building credibility and
-                      brand advocates amongst industry influencers from the
-                      media, analyst community
-                    </div>
-                    <div class="author-info">
-                      <div class="info-inner">
-                        <div class="author-image">
-                          <img src="images/resource/author-1.jpg" alt="" />
-                        </div>
-                        <h6>Mahfuz Riad</h6>
-                        <div class="designation">Online Teacher</div>
-                      </div>
-                    </div>
-                    <div class="quote-icon flaticon-quote-2"></div>
-                  </div>
+            <Carousal />
+            <div class="row clearfix mt-3">
+              <div class="col-md-12 text-center">
+                <div class="btn-box">
+                  <a class="theme-btn btn-style-two" href="#">
+                    <span class="txt">All Review</span>
+                  </a>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimonial-block">
-                  <div class="inner-box">
-                    <div class="text">
-                      We turn your experts into thought leaders by getting their
-                      voices heard in the market and by building credibility and
-                      brand advocates amongst industry influencers from the
-                      media, analyst community
-                    </div>
-                    <div class="author-info">
-                      <div class="info-inner">
-                        <div class="author-image">
-                          <img src="images/resource/author-1.jpg" alt="" />
-                        </div>
-                        <h6>Mahfuz Riad</h6>
-                        <div class="designation">Online Teacher</div>
-                      </div>
-                    </div>
-                    <div class="quote-icon flaticon-quote-2"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-block">
-                  <div class="inner-box">
-                    <div class="text">
-                      We turn your experts into thought leaders by getting their
-                      voices heard in the market and by building credibility and
-                      brand advocates amongst industry influencers from the
-                      media, analyst community
-                    </div>
-                    <div class="author-info">
-                      <div class="info-inner">
-                        <div class="author-image">
-                          <img src="images/resource/author-1.jpg" alt="" />
-                        </div>
-                        <h6>Mahfuz Riad</h6>
-                        <div class="designation">Online Teacher</div>
-                      </div>
-                    </div>
-                    <div class="quote-icon flaticon-quote-2"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-block">
-                  <div class="inner-box">
-                    <div class="text">
-                      We turn your experts into thought leaders by getting their
-                      voices heard in the market and by building credibility and
-                      brand advocates amongst industry influencers from the
-                      media, analyst community
-                    </div>
-                    <div class="author-info">
-                      <div class="info-inner">
-                        <div class="author-image">
-                          <img src="images/resource/author-1.jpg" alt="" />
-                        </div>
-                        <h6>Mahfuz Riad</h6>
-                        <div class="designation">Online Teacher</div>
-                      </div>
-                    </div>
-                    <div class="quote-icon flaticon-quote-2"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-block">
-                  <div class="inner-box">
-                    <div class="text">
-                      We turn your experts into thought leaders by getting their
-                      voices heard in the market and by building credibility and
-                      brand advocates amongst industry influencers from the
-                      media, analyst community
-                    </div>
-                    <div class="author-info">
-                      <div class="info-inner">
-                        <div class="author-image">
-                          <img src="images/resource/author-1.jpg" alt="" />
-                        </div>
-                        <h6>Mahfuz Riad</h6>
-                        <div class="designation">Online Teacher</div>
-                      </div>
-                    </div>
-                    <div class="quote-icon flaticon-quote-2"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-block">
-                  <div class="inner-box">
-                    <div class="text">
-                      We turn your experts into thought leaders by getting their
-                      voices heard in the market and by building credibility and
-                      brand advocates amongst industry influencers from the
-                      media, analyst community
-                    </div>
-                    <div class="author-info">
-                      <div class="info-inner">
-                        <div class="author-image">
-                          <img src="images/resource/author-1.jpg" alt="" />
-                        </div>
-                        <h6>Mahfuz Riad</h6>
-                        <div class="designation">Online Teacher</div>
-                      </div>
-                    </div>
-                    <div class="quote-icon flaticon-quote-2"></div>
-                  </div>
-                </div>
-              </div>
-            </OwlCarousel>
+            </div>
           </div>
         </div>
       </section>

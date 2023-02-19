@@ -3,7 +3,7 @@ import React from "react";
 const HowItWorks = () => {
   return (
     <div>
-      <section class="benefit-section pt-5">
+      <section class="benefit-section pt-5" id="how">
         <div class="background-layer-one"></div>
         <div class="background-layer-two"></div>
         <div class="auto-container">
